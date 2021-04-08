@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/custom.css">
+  <title>My picture</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="heading">Gambar saya</div>
+    <div class="gambar-container">
+      <div class="gambar">
+        <img src="/images/aku.jpg">
+      </div>
+      <div class="gambar">
+        <img src="/images/aku2.jpg">
+      </div>
+      <div class="gambar">
+        <img src="/images/q1.jpg">
+      </div>
+      <div class="gambar">
+        <img src="/images/q4.jpg">
+      </div>
+      <div class="gambar">
+        <img src="/images/q5.jpg">
+      </div>
+      <div class="gambar">
+        <img src="/images/q6.jpg">
+      </div>
+      <div class="gambar">
+        <img src="/images/q7.jpg">
+      </div>
+      <div class="gambar">
+        <img src="/images/r7.jpg">
+      </div>
+      <div class="gambar">
+        <img src="ron.jpg">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var gambar = document.querySelectorAll('img')
+    gambar.forEach(play => play.addEventListener('click', () =>{
+      play.classList.toggle('active');
+      
+    }));
+  </script>
+
+<audio src="surender.mp3"
+autoplay="autoplay" hidden="hidden>
+</audio>
+
+</body>
+</html>
