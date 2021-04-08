@@ -1,0 +1,1498 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* @media only screen and (min-width: 1200px){ */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    padding-right: 50px;
+}
+
+li {
+    float: right;
+
+}
+
+#logo {
+    float: left;
+    padding: 10px 50px;
+}
+
+li a {
+    display: block;
+    color: rgb(31, 63, 105);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+.container {
+    background: url(./ron.jpg)no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 90vh;
+}
+
+.container p {
+    text-align: center;
+    padding-top: 130px;
+    font-size: 4.5rem;
+    /* font-weight: 700; */
+    color: rgb(31, 63, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pera {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#pera1 {
+    width: 40%;
+    height: 55vh;
+    float: left;
+    font-size: 1.3rem;
+
+}
+
+#pera2 {
+    width: 40%;
+    height: 55vh;
+    float: right;
+    font-size: 1.3rem;
+    color: grey;
+    margin-left: 50px;
+}
+
+.feature {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#f1 {
+    width: 25%;
+    height: 45vh;
+    margin: 20px 15px;
+    padding: 25px 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(31, 63, 105);
+}
+
+#icon {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgb(93, 240, 100);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#f1 h2 {
+    padding-bottom: 15px;
+    color: red;
+}
+
+#video {
+    width: 100%;
+    height: 80vh;
+}
+
+#video source {
+    width: 100%;
+    height: 80vh;
+}
+
+.work {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#chal {
+    width: 37%;
+    height: 60vh;
+    float: left;
+
+
+}
+
+#sol {
+    width: 37%;
+    height: 60vh;
+    float: right;
+    margin-left: 50px;
+}
+
+.work h1 {
+    padding: 15px 0;
+}
+
+.More {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#m1 {
+    width: 25%;
+    height: 40vh;
+    margin: 0 15px;
+    padding: 30px 5px;
+    text-align: center;
+}
+
+#m1 .fas,
+.fab {
+    font-size: 50px;
+    color: rgb(209, 75, 115);
+    padding-bottom: 20px;
+}
+
+.blog {
+    width: 100%;
+    height: 90vh;
+    /* display: flex; */
+    /* border: 1px solid; */
+    text-align: center;
+    justify-content: center;
+}
+
+#post {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    /* border: 1px solid; */
+    text-align: center;
+    justify-content: center;
+}
+
+#post1 {
+    width: 25%;
+    height: 40vh;
+    margin: 0 15px;
+    padding: 30px 5px;
+    /* text-align: center; */
+}
+
+#post1 img {
+    width: 95%;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 15%;
+    height: 40px;
+    background-color: rgb(31, 63, 105);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+/* contwct section */
+
+.contact {
+    width: 60%;
+    height: 70vh;
+    /* border: 1px solid; */
+    margin: auto;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+#inp1 {
+    width: 45%;
+    height: 10vh;
+    float: left;
+    margin-top: 30px;
+}
+
+#inp2 {
+    width: 45%;
+    height: 10vh;
+    float: right;
+    margin-top: 30px;
+    /* border: 1px solid; */
+}
+
+#inp1 input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+#inp2 input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.btn1 {
+    width: 20%;
+    height: 40px;
+    background-color: rgb(31, 63, 105);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    /* float: right; */
+
+}
+
+/* } */
+
+
+@media only screen and (max-width: 1199px) {
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        padding-right: 50px;
+    }
+
+    li {
+        float: right;
+
+    }
+
+    #logo {
+        float: left;
+        padding: 10px 50px;
+    }
+
+    li a {
+        display: block;
+        color: rgb(31, 63, 105);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+        color: white;
+    }
+
+
+    .container {
+        background: url(./app.jpg)no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .container p {
+        text-align: center;
+        padding-top: 130px;
+        font-size: 4.5rem;
+        color: rgb(31, 63, 105);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .pera {
+        width: 100%;
+        height: 65vh;
+        /*  55% */
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #pera1 {
+        width: 40%;
+        height: 65vh;
+        /*  55% */
+        float: left;
+        font-size: 1.3rem;
+
+    }
+
+    #pera2 {
+        width: 40%;
+        height: 65vh;
+        /*  55% */
+        float: right;
+        font-size: 1.3rem;
+        color: grey;
+        margin-left: 50px;
+    }
+
+    .feature {
+        width: 100%;
+        height: 80vh;
+        /*  55% */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #f1 {
+        width: 25%;
+        height: 60vh;
+        /*  45% */
+        margin: 20px 15px;
+        padding: 25px 20px;
+        text-align: center;
+        color: white;
+        background-color: rgb(31, 63, 105);
+    }
+
+    #icon {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        border-radius: 50%;
+        background-color: rgb(93, 240, 100);
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    #video {
+        width: 100%;
+        height: 80vh;
+    }
+
+    #video source {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .work {
+        width: 100%;
+        height: 55vh;
+        /*  55%            changed*/
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #chal {
+        width: 37%;
+        height: 55vh;
+        /*  55%            changed*/
+        float: left;
+
+
+    }
+
+    #sol {
+        width: 37%;
+        height: 55vh;
+        /*  55%            changed*/
+        float: right;
+        margin-left: 50px;
+    }
+
+    .work h1 {
+        padding: 15px 0;
+    }
+
+    .More {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #m1 {
+        width: 25%;
+        height: 40vh;
+        margin: 0 15px;
+        padding: 30px 5px;
+        text-align: center;
+    }
+
+    #m1 .fas,
+    .fab {
+        font-size: 50px;
+        color: rgb(209, 75, 115);
+        padding-bottom: 20px;
+    }
+
+    .blog {
+        width: 100%;
+        height: 90vh;
+        /* display: flex; */
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+    }
+
+    #post {
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+    }
+
+    #post1 {
+        width: 25%;
+        height: 40vh;
+        margin: 0 15px;
+        padding: 30px 5px;
+        /* text-align: center; */
+    }
+
+    #post1 img {
+        width: 95%;
+        height: 30vh;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 15%;
+        height: 40px;
+        background-color: rgb(31, 63, 105);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+
+    /* contwct section */
+
+    .contact {
+        width: 60%;
+        height: 70vh;
+        /* border: 1px solid; */
+        margin: auto;
+    }
+
+    .contact h1 {
+        text-align: center;
+    }
+
+    #inp1 {
+        width: 45%;
+        height: 10vh;
+        float: left;
+        margin-top: 30px;
+    }
+
+    #inp2 {
+        width: 45%;
+        height: 10vh;
+        float: right;
+        margin-top: 30px;
+        /* border: 1px solid; */
+    }
+
+    #inp1 input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    #inp2 input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 20px;
+        padding: 12px;
+    }
+
+    .btn1 {
+        width: 20%;
+        height: 40px;
+        background-color: rgb(31, 63, 105);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        font-weight: bold;
+        margin-top: 20px;
+        /* float: right; */
+
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        padding-right: 50px;
+    }
+
+    li {
+        float: right;
+
+    }
+
+    #logo {
+        float: left;
+        padding: 10px 50px;
+    }
+
+    li a {
+        display: block;
+        color: rgb(31, 63, 105);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+        color: white;
+    }
+
+
+    .container {
+        background: url(./ron.jpg)no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+        /*    90vh   */
+    }
+
+    .container p {
+        text-align: center;
+        padding-top: 130px;
+        font-size: 3.5rem;
+        /*  4.3 */
+        color: rgb(31, 63, 105);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .pera {
+        width: 100%;
+        height: 75vh;
+        /*  45%  */
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #pera1 {
+        width: 45%;
+        height: 55vh;
+        float: left;
+        font-size: 1.3rem;
+
+    }
+
+    #pera2 {
+        width: 45%;
+        height: 55vh;
+        float: right;
+        font-size: 1.3rem;
+        color: grey;
+        margin-left: 30px;
+    }
+
+    .feature {
+        width: 100%;
+        height: 70vh;
+        /*  55%  */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #f1 {
+        width: 30%;
+        height: 55vh;
+        /*  change%  */
+        margin: 20px 15px;
+        padding: 20px 10px;
+        /*  change  */
+        text-align: center;
+        color: white;
+        background-color: rgb(31, 63, 105);
+    }
+
+    #icon {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+        border-radius: 50%;
+        background-color: rgb(93, 240, 100);
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    #video {
+        width: 100%;
+        height: 80vh;
+    }
+
+    #video source {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .work {
+        width: 100%;
+        height: 60vh;
+        /*  40% change  */
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #chal {
+        width: 40%;
+        /*  37% change  */
+        height: 40vh;
+        float: left;
+
+
+    }
+
+    #sol {
+        width: 40%;
+        height: 40vh;
+        /*  37% change  */
+        float: right;
+        margin-left: 50px;
+    }
+
+    .work h1 {
+        padding: 15px 0;
+    }
+
+    .More {
+        width: 100%;
+        height: 60vh;
+        /*  50% change  */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #m1 {
+        width: 30%;
+        /*  25% change  */
+        height: 40vh;
+        /* margin: 0 1px;                              */
+        padding: 30px 5px;
+        text-align: center;
+    }
+
+    #m1 .fas,
+    .fab {
+        font-size: 50px;
+        color: rgb(209, 75, 115);
+        padding-bottom: 20px;
+    }
+
+    .blog {
+        width: 100%;
+        height: 90vh;
+        /* display: flex; */
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+    }
+
+    #post {
+        width: 100%;
+        height: 60vh;
+        /* change*/
+        display: flex;
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+    }
+
+    #post1 {
+        width: 35%;
+        height: 40vh;
+        /* margin: 0 15px; */
+        padding: 30px px;
+
+    }
+
+    #post1 img {
+        width: 100%;
+        /* change*/
+        height: 30vh;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 15%;
+        height: 40px;
+        background-color: rgb(31, 63, 105);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+
+    /* contwct section */
+
+    .contact {
+        width: 70%;
+        /* change*/
+        height: 70vh;
+        /* border: 1px solid; */
+        margin: auto;
+    }
+
+    .contact h1 {
+        text-align: center;
+    }
+
+    #inp1 {
+        width: 45%;
+        height: 10vh;
+        float: left;
+        margin-top: 30px;
+    }
+
+    #inp2 {
+        width: 45%;
+        height: 10vh;
+        float: right;
+        margin-top: 30px;
+        /* border: 1px solid; */
+    }
+
+    #inp1 input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    #inp2 input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 20px;
+        padding: 12px;
+    }
+
+    .btn1 {
+        width: 20%;
+        height: 40px;
+        background-color: rgb(31, 63, 105);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        font-weight: bold;
+        margin-top: 20px;
+        /* float: right; */
+
+    }
+}
+
+
+
+@media only screen and (max-width: 720px) {
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        padding-right: 50px;
+    }
+
+    li {
+        float: right;
+
+    }
+
+    #logo {
+        float: left;
+        padding: 10px 50px;
+    }
+
+    li a {
+        display: block;
+        color: rgb(31, 63, 105);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+        color: white;
+    }
+
+
+    .container {
+        background: url(./ron.jpg)no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .container p {
+        text-align: center;
+        padding-top: 130px;
+        font-size: 2.5rem;
+        /* change  */
+        /* font-weight: 700; */
+        color: rgb(31, 63, 105);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .pera {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        /* display: block;  */
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #pera1 {
+        width: 100%;
+        /* chnage  */
+        height: 40vh;
+        /* float: left; */
+        text-align: center;
+        /* chnage  */
+        font-size: 1.3rem;
+
+    }
+
+    #pera2 {
+        width: 100%;
+        /* change */
+        height: 40vh;
+        /* change */
+        /* float: right; */
+        font-size: 1.3rem;
+        text-align: center;
+        color: grey;
+        /* margin-left: 50px; */
+        /* change */
+    }
+
+    .feature {
+        max-width: 100%;
+        height: 100vh;
+        /*    65%   */
+        display: block;
+        /* change */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #f1 {
+        width: 70%;
+        /* change */
+        height: 35vh;
+        display: inline-block;
+        /* change */
+        margin: 5px 0px;
+        padding: 15px 5px;
+        text-align: center;
+        color: white;
+        background-color: rgb(31, 63, 105);
+    }
+
+    #icon {
+        width: 60px;
+        /* change */
+        height: 60px;
+        /* change */
+        margin: auto;
+        border-radius: 50%;
+        background-color: rgb(93, 240, 100);
+        color: white;
+        padding: 10px;
+        /* change */
+        font-size: 20px;
+        /* change */
+        margin-bottom: 15px;
+        /* change */
+    }
+
+    #video {
+        width: 100%;
+        height: 60vh;
+        /* change */
+        margin-top: 60px;
+    }
+
+    #video source {
+        width: 100%;
+        height: 60vh;
+        /* change */
+    }
+
+    .work {
+        width: 100%;
+        height: 70vh;
+        /* change */
+        margin-top: 50px;
+        /* change */
+        /* text-align: center; */
+    }
+
+    #chal {
+        width: 50%;
+        /* change */
+        height: 70vh;
+        /* change */
+        margin-left: 20px;
+        /* display: inline-block; */
+        /* text-align: center; */
+        /* float: left;   */
+        /* change */
+
+
+    }
+
+    #sol {
+        width: 50%;
+        /* change */
+        height: 70vh;
+        /* change */
+        /* display: inline-block;/ */
+        /* margin-left: 50px; */
+        /* change */
+    }
+
+    .work h1 {
+        padding: 15px 0;
+    }
+
+    .More {
+        width: 100%;
+        height: 100vh;
+        /* change */
+        display: block;
+        text-align: center;
+        /* change */
+        justify-content: center;
+    }
+
+    #m1 {
+        width: 70%;
+        /* change */
+        height: 33vh;
+        /* change */
+        margin: 0 15px;
+        display: inline-block;
+        /* change */
+        padding: 30px 5px;
+        text-align: center;
+    }
+
+    #m1 .fas,
+    .fab {
+        font-size: 40px;
+        /* change */
+        color: rgb(209, 75, 115);
+        padding-bottom: 20px;
+    }
+
+    .blog {
+        width: 100%;
+        height: 100vh;
+        /* change*/
+        /* display: flex; */
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 330px;
+        /* change*/
+    }
+
+    #post {
+        width: 100%;
+        height: 100vh;
+        /* change*/
+        display: block;
+        /* change*/
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 170px;
+        /* change*/
+    }
+
+    #post1 {
+        width: 70%;
+        height: 25vh;
+        margin: 0 15px;
+        display: inline-block;
+        padding: 30px 5px;
+        text-align: center;
+    }
+
+    #post1 img {
+        width: 95%;
+        height: 25vh;
+        /* margin-bottom: 10px; */
+    }
+
+    .btn {
+        width: 15%;
+        height: 40px;
+        background-color: rgb(31, 63, 105);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+
+    /* contwct section */
+
+    .contact {
+        width: 80%;
+        /* change*/
+        height: 70vh;
+        /* border: 1px solid; */
+        margin: auto;
+    }
+
+    .contact h1 {
+        text-align: center;
+    }
+
+    #inp1 {
+        width: 45%;
+        height: 10vh;
+        float: left;
+        margin-top: 30px;
+    }
+
+    #inp2 {
+        width: 45%;
+        height: 10vh;
+        float: right;
+        margin-top: 30px;
+        /* border: 1px solid; */
+    }
+
+    #inp1 input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    #inp2 input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 20px;
+        padding: 12px;
+    }
+
+    .btn1 {
+        width: 20%;
+        height: 40px;
+        background-color: rgb(31, 63, 105);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        font-weight: bold;
+        margin-top: 20px;
+        /* float: right; */
+
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        padding-right: 50px;
+    }
+
+    li {
+        float: right;
+
+    }
+
+    #logo {
+        float: left;
+        padding: 10px 5px;
+        /* change        */
+    }
+
+    li a {
+        display: block;
+        color: rgb(31, 63, 105);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+        color: white;
+    }
+
+
+    .container {
+        background: url(./ron.jpg)no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .container p {
+        text-align: center;
+        padding-top: 130px;
+        font-size: 2.5rem;
+        /* change  */
+        /* font-weight: 700; */
+        color: rgb(31, 63, 105);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .pera {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        /* display: block;  */
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    #pera1 {
+        width: 100%;
+        /* chnage  */
+        height: 45vh;
+        /* float: left; */
+        text-align: center;
+        /* chnage  */
+        font-size: 1.3rem;
+
+    }
+
+    #pera2 {
+        width: 100%;
+        /* change */
+        height: 45vh;
+        /* change */
+        /* float: right; */
+        font-size: 1.3rem;
+        text-align: center;
+        color: grey;
+        /* margin-left: 50px; */
+        /* change */
+    }
+
+    .feature {
+        max-width: 100%;
+        height: 100vh;
+        /*    65%   */
+        display: block;
+        /* change */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #f1 {
+        width: 70%;
+        /* change */
+        height: 35vh;
+        display: inline-block;
+        /* change */
+        margin: 5px 0px;
+        padding: 15px 5px;
+        text-align: center;
+        color: white;
+        background-color: rgb(31, 63, 105);
+    }
+
+    #icon {
+        width: 60px;
+        /* change */
+        height: 60px;
+        /* change */
+        margin: auto;
+        border-radius: 50%;
+        background-color: rgb(93, 240, 100);
+        color: white;
+        padding: 10px;
+        /* change */
+        font-size: 20px;
+        /* change */
+        margin-bottom: 15px;
+        /* change */
+    }
+
+    #video {
+        width: 100%;
+        height: 60vh;
+        /* change */
+        margin-top: 60px;
+    }
+
+    #video source {
+        width: 100%;
+        height: 60vh;
+        /* change */
+    }
+
+    .work {
+        width: 100%;
+        height: 70vh;
+        /* change */
+        margin-top: 50px;
+        /* change */
+        /* text-align: center; */
+    }
+
+    #chal {
+        width: 50%;
+        /* change */
+        height: 70vh;
+        /* change */
+        margin-left: 20px;
+        /* display: inline-block; */
+        /* text-align: center; */
+        /* float: left;   */
+        /* change */
+
+
+    }
+
+    #sol {
+        width: 50%;
+        /* change */
+        height: 70vh;
+        /* change */
+        /* display: inline-block;/ */
+        /* margin-left: 50px; */
+        /* change */
+    }
+
+    .work h1 {
+        padding: 15px 0;
+    }
+
+    .More {
+        width: 100%;
+        height: 100vh;
+        /* change */
+        display: block;
+        text-align: center;
+        /* change */
+        justify-content: center;
+    }
+
+    #m1 {
+        width: 70%;
+        /* change */
+        height: 33vh;
+        /* change */
+        margin: 0 15px;
+        display: inline-block;
+        /* change */
+        padding: 30px 5px;
+        text-align: center;
+    }
+
+    #m1 .fas,
+    .fab {
+        font-size: 40px;
+        /* change */
+        color: rgb(209, 75, 115);
+        padding-bottom: 20px;
+    }
+
+    .blog {
+        width: 100%;
+        height: 100vh;
+        /* change*/
+        /* display: flex; */
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 350px;
+        /* change*/
+    }
+
+    #post {
+        width: 100%;
+        height: 100vh;
+        /* change*/
+        display: block;
+        /* change*/
+        /* border: 1px solid; */
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 210px;
+        /* change*/
+    }
+
+    #post1 {
+        width: 70%;
+        height: 25vh;
+        margin: 0 15px;
+        display: inline-block;
+        padding: 30px 5px;
+        text-align: center;
+    }
+
+    #post1 img {
+        width: 95%;
+        height: 25vh;
+        /* margin-bottom: 10px; */
+    }
+
+    .btn {
+        width: 20%;
+        height: 40px;
+        background-color: rgb(31, 63, 105);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+
+    /* contwct section */
+
+    .contact {
+        width: 90%;
+        /* change*/
+        height: 70vh;
+        /* border: 1px solid; */
+        margin: auto;
+    }
+
+    .contact h1 {
+        text-align: center;
+    }
+
+    #inp1 {
+        width: 45%;
+        height: 10vh;
+        float: left;
+        margin-top: 30px;
+    }
+
+    #inp2 {
+        width: 45%;
+        height: 10vh;
+        float: right;
+        margin-top: 30px;
+        /* border: 1px solid; */
+    }
+
+    #inp1 input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    #inp2 input {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 20px;
+        padding: 12px;
+    }
+
+    .btn1 {
+        width: 20%;
+        height: 40px;
+        background-color: rgb(31, 63, 105);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+        font-weight: bold;
+        margin-top: 20px;
+        /* float: right; */
+
+    }
+}
